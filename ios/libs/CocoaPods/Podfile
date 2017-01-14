@@ -1,0 +1,8 @@
+project 'FakeProject/FakeProject'
+
+platform :ios, '9.0'
+
+target "FakeProject" do
+    pod 'Crashlytics', '3.8.3'
+    pod 'Fabric', '1.6.11'
+end
